@@ -30,6 +30,9 @@ public class LoginPage {
 		@CacheLookup
 		WebElement btnLogin;
 		
+		@FindBy(xpath="//a[normalize-space()='Log out']")
+		@CacheLookup
+		WebElement logoutbtn;
 		
 		
 		//WebElement txtUserName=driver.findElement(By.name("uid"));
@@ -51,6 +54,10 @@ public class LoginPage {
 		public void clickSubmit()
 		{
 			btnLogin.click();
+		}
+		public void clicklogout()
+		{
+			logoutbtn.click();
 		}
 		
 		

@@ -4,3 +4,45 @@
 2021-10-03 10:12:07,692 - eBanking -INFO - Click Login Button
 2021-10-03 10:12:07,698 - eBanking -INFO - Getting Title of the Page
 2021-10-03 10:12:07,708 - eBanking -INFO - Login Test is Passed
+2021-10-03 13:09:11,720 - eBanking -INFO - URL is opened
+2021-10-03 13:09:11,889 - eBanking -INFO - Entered Username
+2021-10-03 13:09:11,953 - eBanking -INFO - Entered Password
+2021-10-03 13:09:12,332 - eBanking -INFO - Click Login Button
+2021-10-03 13:09:12,339 - eBanking -INFO - Getting Title of the Page
+2021-10-03 13:09:12,345 - eBanking -INFO - Login Test is Passed
+2021-10-03 13:17:57,658 - eBanking -INFO - URL is opened
+2021-10-03 13:17:57,832 - eBanking -INFO - Entered Username
+2021-10-03 13:17:57,933 - eBanking -INFO - Entered Password
+2021-10-03 13:17:57,977 - eBanking -INFO - Click Login Button
+2021-10-03 13:17:58,033 - eBanking -INFO - Getting Title of the Page
+2021-10-03 13:18:32,492 - eBanking -INFO - URL is opened
+2021-10-03 13:18:32,665 - eBanking -INFO - Entered Username
+2021-10-03 13:18:32,767 - eBanking -INFO - Entered Password
+2021-10-03 13:18:32,807 - eBanking -INFO - Click Login Button
+2021-10-03 13:18:32,817 - eBanking -INFO - Getting Title of the Page
+2021-10-03 13:18:59,915 - eBanking -INFO - URL is opened
+2021-10-03 13:19:00,090 - eBanking -INFO - Entered Username
+2021-10-03 13:19:00,175 - eBanking -INFO - Entered Password
+2021-10-03 13:19:00,528 - eBanking -INFO - Click Login Button
+2021-10-03 13:19:00,534 - eBanking -INFO - Getting Title of the Page
+2021-10-03 13:19:00,540 - eBanking -INFO - Login Test is Passed
+2021-10-03 15:42:11,193 - eBanking -INFO - URL is opened
+2021-10-03 15:42:11,336 - eBanking -INFO - User name Provided
+2021-10-03 15:42:11,415 - eBanking -INFO - Pasword Provided
+2021-10-03 15:42:12,056 - eBanking -WARN - Login Failed
+2021-10-03 15:42:12,383 - eBanking -INFO - URL is opened
+2021-10-03 15:42:12,438 - eBanking -INFO - User name Provided
+2021-10-03 15:42:12,491 - eBanking -INFO - Pasword Provided
+2021-10-03 15:42:13,473 - eBanking -INFO - Login Succesfull
+2021-10-03 15:42:13,784 - eBanking -INFO - URL is opened
+2021-10-03 15:42:13,839 - eBanking -INFO - User name Provided
+2021-10-03 15:42:13,901 - eBanking -INFO - Pasword Provided
+2021-10-03 15:42:14,591 - eBanking -WARN - Login Failed
+2021-10-03 15:42:14,842 - eBanking -INFO - URL is opened
+2021-10-03 15:42:14,910 - eBanking -INFO - User name Provided
+2021-10-03 15:42:14,973 - eBanking -INFO - Pasword Provided
+2021-10-03 15:42:15,587 - eBanking -WARN - Login Failed
+2021-10-03 15:42:15,887 - eBanking -INFO - URL is opened
+2021-10-03 15:42:15,959 - eBanking -INFO - User name Provided
+2021-10-03 15:42:16,019 - eBanking -INFO - Pasword Provided
+2021-10-03 15:42:16,944 - eBanking -INFO - Login Succesfull

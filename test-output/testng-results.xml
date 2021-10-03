@@ -1,25 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-03T10:12:03 CDT" name="Default suite" finished-at="2021-10-03T10:12:07 CDT" duration-ms="4346">
+  <suite started-at="2021-10-03T15:42:05 CDT" name="Guru99WebApplicaton" finished-at="2021-10-03T15:42:17 CDT" duration-ms="11561">
     <groups>
     </groups>
-    <test started-at="2021-10-03T10:12:03 CDT" name="Default test" finished-at="2021-10-03T10:12:07 CDT" duration-ms="4346">
-      <class name="Guru99.TestCases.TC_LoginTest_001">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Guru99.TestCases.TC_LoginTest_001@2177849e]" started-at="2021-10-03T10:12:03 CDT" name="setup" finished-at="2021-10-03T10:12:06 CDT" duration-ms="2850" status="PASS">
+    <test started-at="2021-10-03T15:42:05 CDT" name="LoginTest" finished-at="2021-10-03T15:42:17 CDT" duration-ms="11561">
+      <class name="Guru99.TestCases.TC_LoginTestDDT_002">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Guru99.TestCases.TC_LoginTestDDT_002@3246fb96]" started-at="2021-10-03T15:42:05 CDT" name="setup" finished-at="2021-10-03T15:42:10 CDT" duration-ms="4227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:Guru99.TestCases.TC_LoginTest_001@2177849e]" started-at="2021-10-03T10:12:06 CDT" name="loginTest" finished-at="2021-10-03T10:12:07 CDT" duration-ms="1355" status="PASS">
+        <test-method signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:Guru99.TestCases.TC_LoginTestDDT_002@3246fb96]" started-at="2021-10-03T15:42:10 CDT" name="LoginDDT" data-provider="logindata" finished-at="2021-10-03T15:42:12 CDT" duration-ms="1177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr67890]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ueksmc]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Guru99.TestCases.TC_LoginTest_001@2177849e]" started-at="2021-10-03T10:12:07 CDT" name="teardown" finished-at="2021-10-03T10:12:07 CDT" duration-ms="108" status="PASS">
+        </test-method> <!-- LoginDDT -->
+        <test-method signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:Guru99.TestCases.TC_LoginTestDDT_002@3246fb96]" started-at="2021-10-03T15:42:12 CDT" name="LoginDDT" data-provider="logindata" finished-at="2021-10-03T15:42:13 CDT" duration-ms="1400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr357211]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ysuhunA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDDT -->
+        <test-method signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:Guru99.TestCases.TC_LoginTestDDT_002@3246fb96]" started-at="2021-10-03T15:42:13 CDT" name="LoginDDT" data-provider="logindata" finished-at="2021-10-03T15:42:14 CDT" duration-ms="1115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr939320]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nfruisl]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDDT -->
+        <test-method signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:Guru99.TestCases.TC_LoginTestDDT_002@3246fb96]" started-at="2021-10-03T15:42:14 CDT" name="LoginDDT" data-provider="logindata" finished-at="2021-10-03T15:42:15 CDT" duration-ms="996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mnrg949234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kvsgfksd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDDT -->
+        <test-method signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:Guru99.TestCases.TC_LoginTestDDT_002@3246fb96]" started-at="2021-10-03T15:42:15 CDT" name="LoginDDT" data-provider="logindata" finished-at="2021-10-03T15:42:16 CDT" duration-ms="1354" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr357211]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ysuhunA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDDT -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Guru99.TestCases.TC_LoginTestDDT_002@3246fb96]" started-at="2021-10-03T15:42:16 CDT" name="teardown" finished-at="2021-10-03T15:42:17 CDT" duration-ms="143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- Guru99.TestCases.TC_LoginTest_001 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- Guru99.TestCases.TC_LoginTestDDT_002 -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- Guru99WebApplicaton -->
 </testng-results>
