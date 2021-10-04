@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-04T09:14:53 CDT" name="Guru99WebApplicaton" finished-at="2021-10-04T09:15:04 CDT" duration-ms="10937">
+  <suite started-at="2021-10-04T17:38:22 CDT" name="Guru99WebApplicaton" finished-at="2021-10-04T17:38:43 CDT" duration-ms="21561">
     <groups>
     </groups>
-    <test started-at="2021-10-04T09:14:53 CDT" name="LoginTest" finished-at="2021-10-04T09:15:04 CDT" duration-ms="10937">
-      <class name="Guru99.TestCases.TC_AddNewCustomerTest_003">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Guru99.TestCases.TC_AddNewCustomerTest_003@482bce4f]" started-at="2021-10-04T09:14:54 CDT" name="setup" finished-at="2021-10-04T09:14:57 CDT" duration-ms="3248" status="PASS">
+    <test started-at="2021-10-04T17:38:22 CDT" name="LoginTest" finished-at="2021-10-04T17:38:43 CDT" duration-ms="21561">
+      <class name="Guru99.TestCases.TC_NewBankAccount_004">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Guru99.TestCases.TC_NewBankAccount_004@482bce4f]" started-at="2021-10-04T17:38:22 CDT" name="setup" finished-at="2021-10-04T17:38:26 CDT" duration-ms="4062" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addNewCustomer()[pri:0, instance:Guru99.TestCases.TC_AddNewCustomerTest_003@482bce4f]" started-at="2021-10-04T09:14:57 CDT" name="addNewCustomer" finished-at="2021-10-04T09:15:04 CDT" duration-ms="7280" status="PASS">
+        <test-method signature="NewBankAccount()[pri:0, instance:Guru99.TestCases.TC_NewBankAccount_004@482bce4f]" started-at="2021-10-04T17:38:26 CDT" name="NewBankAccount" finished-at="2021-10-04T17:38:33 CDT" duration-ms="6994" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addNewCustomer -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Guru99.TestCases.TC_AddNewCustomerTest_003@482bce4f]" started-at="2021-10-04T09:15:04 CDT" name="teardown" finished-at="2021-10-04T09:15:04 CDT" duration-ms="105" status="PASS">
+        </test-method> <!-- NewBankAccount -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Guru99.TestCases.TC_NewBankAccount_004@482bce4f]" started-at="2021-10-04T17:38:33 CDT" name="teardown" finished-at="2021-10-04T17:38:43 CDT" duration-ms="10107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- Guru99.TestCases.TC_AddNewCustomerTest_003 -->
+      </class> <!-- Guru99.TestCases.TC_NewBankAccount_004 -->
     </test> <!-- LoginTest -->
   </suite> <!-- Guru99WebApplicaton -->
 </testng-results>

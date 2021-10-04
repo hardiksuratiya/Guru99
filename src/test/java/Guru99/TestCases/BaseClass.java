@@ -48,7 +48,7 @@ public class BaseClass {
 		{
 			driver = new SafariDriver();
 		}
-		 
+		 driver.manage().window().maximize();
 		 driver.get(baseURL);
 		 logger= Logger.getLogger("eBanking");
 		 PropertyConfigurator.configure("Log4j.properties");
@@ -59,12 +59,12 @@ public class BaseClass {
 	@AfterClass
 	public void teardown() throws InterruptedException
 	{
-		//Thread.sleep(3000);
+		Thread.sleep(10000);
 		driver.quit();
 		
 	}
 	
-	public void captureScreen(WebDriver driver,String tname) throws IOException
+	public static void captureScreen(WebDriver driver,String tname) throws IOException
 	{
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);

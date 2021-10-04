@@ -64,6 +64,10 @@ public class AddNewCustomerPage {
 		@CacheLookup
 		WebElement btnsubmit;
 		
+		@FindBy (xpath="//*[@id=\"customer\"]/tbody/tr[4]/td[2]")
+		@CacheLookup
+		WebElement captureCustId;
+		
 		public void clickAddNewCustomer()
 		{
 			lnkAddNewCustomer.click();
@@ -115,4 +119,5 @@ public class AddNewCustomerPage {
 			btnsubmit.click();
 		}
 	
+		
 }

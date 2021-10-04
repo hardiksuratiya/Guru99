@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Guru99WebApplicaton">
+<suite name="Guru99WebApplicaton" allow-return-values="true"
+>
 <listeners>
 	<listener class-name="Guru99.Utilities.Reporting"></listener>
 </listeners>
-  <test name="LoginTest">
+  <test name="LoginTest"  >
   	<parameter name="browser" value="chrome"  />
     <classes>
-   		<!--	   <class name="Guru99.TestCases.TC_LoginTest_001"/>
-    		   <class name="Guru99.TestCases.TC_LoginTestDDT_002"/>   -->
-     		 <class name="Guru99.TestCases.TC_AddNewCustomerTest_003"/>
+   		<!--     <class name="Guru99.TestCases.TC_LoginTest_001"/>
+    		     <class name="Guru99.TestCases.TC_LoginTestDDT_002"/>   	
+     			 <class name="Guru99.TestCases.TC_AddNewCustomerTest_003"/>  -->
+     		 	<class name="Guru99.TestCases.TC_NewBankAccount_004"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
