@@ -12,7 +12,7 @@ public class TC_LoginTestDDT_002 extends BaseClass{
 	
 	
 	@Test(dataProvider="logindata")
-	public void LoginDDT(String usr , String pwd)
+	public void LoginDDT(String usr , String pwd) throws InterruptedException
 	{
 		driver.get(baseURL);
 		logger.info("URL is opened");
@@ -24,6 +24,7 @@ public class TC_LoginTestDDT_002 extends BaseClass{
 		lp.setPassword(pwd);
 		logger.info("Pasword Provided");
 		lp.clickSubmit();
+		Thread.sleep(2500);
 		
 		if(isAlertPresent()==true)
 		{
